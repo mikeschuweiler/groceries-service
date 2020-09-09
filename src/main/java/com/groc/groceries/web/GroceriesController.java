@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(path = "/api/groceries")
-public class GroceryController {
+public class GroceriesController {
 
     @Autowired
     private GroceriesService groceriesService;
